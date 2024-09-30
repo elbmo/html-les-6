@@ -1,7 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  height: calc(100vw - 10px);
+  width: fit-content;
+  margin: 20px;
+  border-radius: 10px;
+  min-width: 250px;
+}
+
+nav>img{
+    filter: invert();
+}
 
 
-html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+img {
+  height: 100px;
+  margin: 25px;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  margin: 5px;
 }
