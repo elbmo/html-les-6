@@ -21,7 +21,6 @@ nav>img{
 
 img {
   height: 100px;
-  margin: 25px;
   padding: 10px;
 }
 
@@ -36,8 +35,10 @@ body{
 }
 
 li{
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 li:hover{
